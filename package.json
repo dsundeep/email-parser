@@ -1,5 +1,5 @@
 {
-  "name": "parse.js",
+  "name": "parser-js",
   "version": "1.0.0",
   "description": "A common javascript utility package to parse different types",
   "main": "src/index.js",
