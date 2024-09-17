@@ -1,0 +1,19 @@
+{
+  "name": "parse.js",
+  "version": "1.0.0",
+  "description": "A common javascript utility package to parse different types",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "email",
+    "parser",
+    "validator"
+  ],
+  "author": "Bala Sundeep Krishna Dasari",
+  "license": "MIT"
+}
