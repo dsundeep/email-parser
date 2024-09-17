@@ -1,32 +1,28 @@
-# @js-genie/parser
-A common javascript utility package to parse different types
+# @js-genie/email-parser
+A javascript utility package to parse email addresses
 
 # Installation
 ```shell
-npm i --save @js-genie/parser
+npm i --save @js-genie/email-parser
 ```
-
-# Features
-- Email Parser
-
 
 ### Email Parser
 
 ```javascript
-const { email } = require('@js-genie/parser');
+const { isValid, getUsername, getDomain } = require('@js-genie/email-parser');
 
-const isValidEmail = email.isValid('testuser1@testmail.com'); // returns true
-const isValidEmail = email.isValid('test.user_qwe@testmail.com'); // returns true
-const isValidEmail = email.isValid('{key : text@testemail.com}'); // returns false
-const isValidEmail = email.isValid('testuser1@testmail.com'); // returns false
+isValidEmail = isValid('testuser1@testmail.com'); // returns true
+isValidEmail = isValid('test.user_qwe@testmail.com'); // returns true
+isValidEmail = isValid('{key : text@testemail.com}'); // returns false
+isValidEmail = isValid('testuser1@testmail.com'); // returns false
 
-const username = email.getUsername("{}teststring"); // returns ''
-const username = email.getUsername({key: 'testemail@test.com'}); // returns ''
-const username = email.getUsername("testemail@test.com"); // returns 'testemail'
+username = getUsername("{}teststring"); // returns ''
+username = getUsername({key: 'testemail@test.com'}); // returns ''
+username = getUsername("testemail@test.com"); // returns 'testemail'
 
-const username = email.getDomain("{}teststring"); // returns ''
-const username = email.getDomain({key: 'testemail@test.com'}); // returns ''
-const username = email.getDomain("testemail@test.com"); // returns 'test.com'
+domain = getDomain("{}teststring"); // returns ''
+domain = getDomain({key: 'testemail@test.com'}); // returns ''
+domain = getDomain("testemail@test.com"); // returns 'test.com'
 ```
 
 - `isValid()` function is used to check if the input is a valid email address or not.
