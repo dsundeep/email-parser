@@ -1,9 +1,9 @@
-# parse-js
+# parser-js
 A common javascript utility package to parse different types
 
 # Installation
 ```shell
-npm i --save parse-js
+npm i --save parser-js
 ```
 
 # Features
