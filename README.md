@@ -1,9 +1,9 @@
-# parser-js
+# @js-genie/parser
 A common javascript utility package to parse different types
 
 # Installation
 ```shell
-npm i --save parser-js
+npm i --save @js-genie/parser
 ```
 
 # Features
@@ -13,7 +13,7 @@ npm i --save parser-js
 ### Email Parser
 
 ```javascript
-const { email } = require('parser-js');
+const { email } = require('@js-genie/parser');
 
 const isValidEmail = email.isValid('testuser1@testmail.com'); // returns true
 const isValidEmail = email.isValid('test.user_qwe@testmail.com'); // returns true

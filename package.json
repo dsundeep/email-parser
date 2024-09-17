@@ -1,5 +1,5 @@
 {
-  "name": "parser-js",
+  "name": "@js-genie/parser",
   "version": "1.0.0",
   "description": "A common javascript utility package to parse different types",
   "main": "src/index.js",
