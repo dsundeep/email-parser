@@ -1,4 +1,4 @@
-const { getUsername, getDomain, isValid } = require('../email');
+const { getUsername, getDomain, isValid } = require('../email/emailParser');
 
 describe('Tests for Email Parser', () => {
 

@@ -1,5 +1,5 @@
-const email = require('./email');
+const emailParser = require('./email/emailParser');
 
 module.exports = {
-    email
+    ...emailParser
 }
