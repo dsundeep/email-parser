@@ -1,9 +1,9 @@
-# parse.js
+# parse-js
 A common javascript utility package to parse different types
 
 # Installation
 ```shell
-npm i --save parse.js
+npm i --save parse-js
 ```
 
 # Features
@@ -13,7 +13,7 @@ npm i --save parse.js
 ### Email Parser
 
 ```javascript
-const { email } = require('parser.js');
+const { email } = require('parser-js');
 
 const isValidEmail = email.isValid('testuser1@testmail.com'); // returns true
 const isValidEmail = email.isValid('test.user_qwe@testmail.com'); // returns true
